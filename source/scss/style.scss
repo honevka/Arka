@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+
+.header{
+    height: 100vh;
+    background: #F2AE4D;
+    .header-line{
+        padding-top: 19px;
+        padding-bottom: 18px;
+        display: flex;
+        justify-content: space-between;
+        background: white;
+        .header-line-logo{
+            margin-left: 24px;
+        }
+        .header-line-nav{
+            margin-top: 5px;
+            a{
+                color:black;
+                margin-right: 40px;
+                letter-spacing: 1.96px;
+            }
+            img{
+                margin-right: 10px;
+            }
+        }
+        .header-line-right{
+            margin-right: 20px;
+            margin-top: 5px;
+            img{
+                margin-top: -5px;
+            }
+            a{
+                color:black;
+                margin-right: 20px;
+                letter-spacing: 1.96px;
+            }
+        }
+    }
+    .header-main{
+        display: flex;
+        justify-content: space-between;
+    .header-info{
+        margin-left: 120px;
+        .header-title{
+            padding-top: 165px;
+            font-size: 48px;
+            line-height: 56px;
+            color: #011F3A;
+        }
+        .header-desc{
+            margin-top: 33px;
+            font-size: 15px;
+            line-height: 24px;
+            color: #011F3A;
+        }
+        .header-button{
+            padding-top: 44px;
+            padding-bottom: 205px;
+        .header-btn{
+            background: #3D5675;
+            border-radius: 44px;
+            color:white;
+            padding: 19px 29px;
+            
+        }
+    }
+    }
+    .header-imgs{
+       margin-top: 87px;
+    }
+}
+}
