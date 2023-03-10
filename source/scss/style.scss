@@ -174,3 +174,118 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 }
+
+.products{
+    background: #EEEEEE;
+    height: 200vh;
+    .container{
+        .products-final{
+            padding-top: 56px;
+            display: flex;
+            justify-content: center;
+            .products-final-button{
+                background: #FFFFFF;
+                border-radius: 44px;
+                padding: 10px 20px;
+                margin-left: 20px;
+                .products-final-btn{
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: 1.96px;
+                    text-transform: uppercase;
+                    color: #3D5675;
+                }
+            }
+        .products-final-question{
+            font-size: 15px;
+            line-height: 24px;
+            color: #A1A1A1;
+            margin-top: 5px;
+        }
+    }
+        .products-holder{
+            display: flex;
+            justify-content: space-between;
+
+            .products-title{
+                font-size: 32px;
+                line-height: 38px;
+                padding-top: 57px;
+            }
+            .products-button{
+                padding-top: 72px;
+                .products-btn{
+                    font-size: 14px;
+                    line-height: 18px;
+                    text-align: center;
+                    letter-spacing: 1.96px;
+                    text-transform: uppercase;
+                    color:white;
+                    background: #3D5675;
+                    padding: 13px 25px;
+                    border-radius: 44px;
+                }
+            }
+        }
+        .products-first-row{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 58px;
+            .products-block{
+                background: white;
+                margin: 1px 1px;
+                .products-block-title{
+                    font-size: 18px;
+                    line-height: 21px;
+                    letter-spacing: 0.36px;
+                    color: #011F3A;
+                    margin-left: 25px;
+                }
+                .products-block-desc{
+                    font-size: 15px;
+                    line-height: 24px;
+                    color: #777777;
+                    padding-top: 8px;
+                    margin-left: 25px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        .products-second-row{
+            display: flex;
+            justify-content: space-between;
+            .products-block{
+                background: white;
+                margin: 1px 1px;
+                .products-block-title{
+                    font-size: 18px;
+                    line-height: 21px;
+                    letter-spacing: 0.36px;
+                    color: #011F3A;
+                    margin-left: 25px;
+                }
+                .products-block-desc{
+                    font-size: 15px;
+                    line-height: 24px;
+                    color: #777777;
+                    padding-top: 8px;
+                    margin-left: 25px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+.products-block-info{
+    display: flex;
+    justify-content: space-between;
+    .products-block-price{
+        padding-right: 30px;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: right;
+        color: #A1A1A1;
+        padding-top: 8px;
+    }
+}

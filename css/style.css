@@ -179,3 +179,135 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
   margin-left: 20px;
 }
+
+.products {
+  background: #EEEEEE;
+  height: 200vh;
+}
+.products .container .products-final {
+  padding-top: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.products .container .products-final .products-final-button {
+  background: #FFFFFF;
+  border-radius: 44px;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+.products .container .products-final .products-final-button .products-final-btn {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #3D5675;
+}
+.products .container .products-final .products-final-question {
+  font-size: 15px;
+  line-height: 24px;
+  color: #A1A1A1;
+  margin-top: 5px;
+}
+.products .container .products-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.products .container .products-holder .products-title {
+  font-size: 32px;
+  line-height: 38px;
+  padding-top: 57px;
+}
+.products .container .products-holder .products-button {
+  padding-top: 72px;
+}
+.products .container .products-holder .products-button .products-btn {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: white;
+  background: #3D5675;
+  padding: 13px 25px;
+  border-radius: 44px;
+}
+.products .container .products-first-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 58px;
+}
+.products .container .products-first-row .products-block {
+  background: white;
+  margin: 1px 1px;
+}
+.products .container .products-first-row .products-block .products-block-title {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+  margin-left: 25px;
+}
+.products .container .products-first-row .products-block .products-block-desc {
+  font-size: 15px;
+  line-height: 24px;
+  color: #777777;
+  padding-top: 8px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+.products .container .products-second-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.products .container .products-second-row .products-block {
+  background: white;
+  margin: 1px 1px;
+}
+.products .container .products-second-row .products-block .products-block-title {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+  margin-left: 25px;
+}
+.products .container .products-second-row .products-block .products-block-desc {
+  font-size: 15px;
+  line-height: 24px;
+  color: #777777;
+  padding-top: 8px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+.products-block-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.products-block-info .products-block-price {
+  padding-right: 30px;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  color: #A1A1A1;
+  padding-top: 8px;
+}
