@@ -151,3 +151,31 @@ h1, h2, h3, h4, h5, h6 {
 .header .header-main .header-imgs {
   margin-top: 87px;
 }
+
+.container {
+  margin: 0 120px;
+}
+
+.companies .container .companies-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+.companies .container .companies-holder .companies-part {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.companies .container .companies-holder .companies-part .companies-title {
+  color: #A1A1A1;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.6px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
