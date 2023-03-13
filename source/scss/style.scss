@@ -291,14 +291,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custom-boxes{
-    background: #EEEEEE;
+    background-color: #EEEEEE;
     height: 100vh;
     .container{
         padding-top: 35px;
         .custom-boxes-holder{
             background: #72BDA3;
-            box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
-            border-radius: 0px;
+            box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.05);
             padding-right: 50px;
             padding-left: 50px;
             .custom-boxes-title{
@@ -311,9 +310,9 @@ h1, h2, h3, h4, h5, h6 {
             }
             .custom-boxes-cards{
                 display: flex;
+                justify-content: space-between;
                 .custom-boxes-card{
-                    margin-right: 70px;
-                    margin-left: 10px;
+                   
                     margin-bottom: 44px;
                     .custom-boxes-card-title{
                         font-size: 18px;
@@ -345,6 +344,40 @@ h1, h2, h3, h4, h5, h6 {
             }
         }
 
+        }
+    }
+}
+
+.advantage{
+    height: 100vh;
+    background: #EEEEEE;
+    .container{
+        .advantage-title{
+            padding-top: 88px;
+            font-size: 32px;
+            line-height: 41px;
+            color: #011F3A;
+            padding-bottom: 82px;
+        }
+        .advantage-cards{
+            display: flex;
+            justify-content: space-between;
+            .advantage-card{
+                
+                .advantage-card-title{
+                    font-size: 18px;
+                    line-height: 23px;
+                    letter-spacing: 0.36px;
+                    color: #011F3A;
+                    padding-bottom: 12px;
+                }
+                .advantage-card-desc{
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 24px;
+                    color: #A1A1A1;
+                }
+            }
         }
     }
 }

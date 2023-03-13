@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custom-boxes {
-  background: #EEEEEE;
+  background-color: #EEEEEE;
   height: 100vh;
 }
 .custom-boxes .container {
@@ -321,9 +321,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-boxes .container .custom-boxes-holder {
   background: #72BDA3;
-  -webkit-box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
-          box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
-  border-radius: 0px;
+  -webkit-box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.05);
+          box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.05);
   padding-right: 50px;
   padding-left: 50px;
 }
@@ -339,10 +338,11 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .custom-boxes .container .custom-boxes-holder .custom-boxes-cards .custom-boxes-card {
-  margin-right: 70px;
-  margin-left: 10px;
   margin-bottom: 44px;
 }
 .custom-boxes .container .custom-boxes-holder .custom-boxes-cards .custom-boxes-card .custom-boxes-card-title {
@@ -369,4 +369,37 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 44px;
   color: white;
   padding: 13px 29px;
+}
+
+.advantage {
+  height: 100vh;
+  background: #EEEEEE;
+}
+.advantage .container .advantage-title {
+  padding-top: 88px;
+  font-size: 32px;
+  line-height: 41px;
+  color: #011F3A;
+  padding-bottom: 82px;
+}
+.advantage .container .advantage-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.advantage .container .advantage-cards .advantage-card .advantage-card-title {
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+  padding-bottom: 12px;
+}
+.advantage .container .advantage-cards .advantage-card .advantage-card-desc {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #A1A1A1;
 }
