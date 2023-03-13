@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .products {
   background: #EEEEEE;
-  height: 200vh;
+  height: 150vh;
 }
 .products .container .products-final {
   padding-top: 56px;
@@ -310,4 +310,63 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
   color: #A1A1A1;
   padding-top: 8px;
+}
+
+.custom-boxes {
+  background: #EEEEEE;
+  height: 100vh;
+}
+.custom-boxes .container {
+  padding-top: 35px;
+}
+.custom-boxes .container .custom-boxes-holder {
+  background: #72BDA3;
+  -webkit-box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+          box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+  border-radius: 0px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.custom-boxes .container .custom-boxes-holder .custom-boxes-title {
+  padding-top: 88px;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+  color: #011F3A;
+  padding-bottom: 46px;
+}
+.custom-boxes .container .custom-boxes-holder .custom-boxes-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.custom-boxes .container .custom-boxes-holder .custom-boxes-cards .custom-boxes-card {
+  margin-right: 70px;
+  margin-left: 10px;
+  margin-bottom: 44px;
+}
+.custom-boxes .container .custom-boxes-holder .custom-boxes-cards .custom-boxes-card .custom-boxes-card-title {
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+  margin-bottom: 10px;
+}
+.custom-boxes .container .custom-boxes-holder .custom-boxes-cards .custom-boxes-card .custom-boxes-card-desc {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #3D5675;
+}
+.custom-boxes .container .custom-boxes-holder .custom-boxes-button {
+  padding-bottom: 60px;
+  padding-top: 20px;
+  text-align: center;
+}
+.custom-boxes .container .custom-boxes-holder .custom-boxes-button .custom-boxes-btn {
+  background: #3D5675;
+  border-radius: 44px;
+  color: white;
+  padding: 13px 29px;
 }
