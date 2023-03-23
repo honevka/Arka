@@ -422,7 +422,6 @@ h6 {
 
 .questions {
   height: 100vh;
-  padding: 60px 120px;
   background: #eeeeee;
 }
 .questions .container .questions-holder {
@@ -433,9 +432,8 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 110px 64px 0 64px;
   height: 610px;
 }
@@ -469,4 +467,62 @@ h6 {
   border-radius: 44px;
   height: 44px;
   padding: 10px 20px;
+}
+
+.merchants {
+  background-color: #eeeeee;
+  height: 220vh;
+}
+.merchants .container .merchants-title {
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #011f3a;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.merchants .container .merchants-images {
+  background: white;
+  width: 1200px;
+  content: center;
+}
+.merchants .container .merchants-question {
+  font-size: 31px;
+  line-height: 36px;
+  text-align: center;
+  color: #011f3a;
+  margin-top: 120px;
+  margin-bottom: 55px;
+}
+.merchants .container .merchants-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.merchants .container .merchants-buttons .merchants-button1 .merchants-btn1 {
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #3d5675;
+  border-radius: 24px;
+  padding: 10px 15px 10px 15px;
+  margin-right: 10px;
+}
+.merchants .container .merchants-buttons .merchants-button2 .merchants-btn2 {
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  background: #ffffff;
+  color: #3d5675;
+  border-radius: 24px;
+  padding: 10px 15px 10px 15px;
+  margin-left: 10px;
 }
