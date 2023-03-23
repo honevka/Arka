@@ -526,3 +526,51 @@ h6 {
   padding: 10px 15px 10px 15px;
   margin-left: 10px;
 }
+
+.footer {
+  background: #F2F3F4;
+}
+.footer .container .footer-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer .container .footer-holder ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 18px;
+}
+.footer .container .footer-holder ul li a {
+  color: #3d5675;
+}
+.footer .container .footer-holder p {
+  color: #3d5675;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 18px;
+}
+.footer .container .footer-holder input {
+  background: #ffffff;
+  border-radius: 34px;
+  height: 36px;
+  width: 280px;
+  padding: 0 5px;
+}
+.footer .container .footer-holder .footer-button {
+  margin-top: 22px;
+}
+.footer .container .footer-holder .footer-button .footer-btn {
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  color: #ffffff;
+  background: #3d5675;
+  border-radius: 24px;
+  padding: 10px 25px 10px 25px;
+  margin-right: 10px;
+  text-align: center;
+}

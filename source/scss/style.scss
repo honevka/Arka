@@ -393,7 +393,7 @@ h6 {
 
 .questions {
   height: 100vh;
-  
+
   background: #eeeeee;
   .container {
     .questions-holder {
@@ -467,35 +467,84 @@ h6 {
     .merchants-buttons {
       display: flex;
       justify-content: center;
-      .merchants-button1{
-        
-      .merchants-btn1 {
-        font-size: 14px;
-        line-height: 18px;
-        height: 18px;
-        letter-spacing: 1.96px;
-        text-transform: uppercase;
-        color: #ffffff;
-        background: #3d5675;
-        border-radius: 24px;
-        padding: 10px 15px 10px 15px;
-        margin-right: 10px;
+      .merchants-button1 {
+        .merchants-btn1 {
+          font-size: 14px;
+          line-height: 18px;
+          height: 18px;
+          letter-spacing: 1.96px;
+          text-transform: uppercase;
+          color: #ffffff;
+          background: #3d5675;
+          border-radius: 24px;
+          padding: 10px 15px 10px 15px;
+          margin-right: 10px;
+        }
+      }
+      .merchants-button2 {
+        .merchants-btn2 {
+          font-size: 14px;
+          line-height: 18px;
+          height: 18px;
+          letter-spacing: 1.96px;
+          text-transform: uppercase;
+          background: #ffffff;
+          color: #3d5675;
+          border-radius: 24px;
+          padding: 10px 15px 10px 15px;
+          margin-left: 10px;
+        }
       }
     }
-    .merchants-button2{
-      .merchants-btn2 {
-        font-size: 14px;
+  }
+}
+
+.footer {
+    background: #F2F3F4;
+  .container {
+    .footer-holder {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      
+      ul li {
+        margin-bottom: 10px;
+        font-size: 15px;
         line-height: 18px;
-        height: 18px;
-        letter-spacing: 1.96px;
-        text-transform: uppercase;
-        background: #ffffff;
+
+        a {
+          color: #3d5675;
+        }
+      }
+      p{
         color: #3d5675;
-        border-radius: 24px;
-        padding: 10px 15px 10px 15px;
-        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 18px;
       }
-    }
+      input {
+        background: #ffffff;
+        border-radius: 34px;
+        height: 36px;
+        width: 280px;
+        padding: 0 5px;
+      }
+      .footer-button {
+        margin-top: 22px;
+        .footer-btn {
+          font-size: 14px;
+          line-height: 18px;
+          height: 18px;
+         
+          color: #ffffff;
+          background: #3d5675;
+          border-radius: 24px;
+          padding: 10px 25px 10px 25px;
+          margin-right: 10px;
+          text-align: center;
+        }
+      }
     }
   }
 }
